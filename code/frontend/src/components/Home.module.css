@@ -1,0 +1,96 @@
+.hero {
+    background: url("/public/images/hero-gym.jpg") center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+  
+  .heroContent {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ctaBtn {
+    background-color: #ff0000;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .ctaBtn:hover {
+    background-color: #cc0000;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .feature {
+    flex: 1;
+    padding: 40px;
+    color: white;
+  }
+  
+  .feature img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .feature:nth-child(1) {
+    background: black;
+  }
+  
+  .feature:nth-child(2) {
+    background: white;
+    color: black;
+  }
+  
+  .feature:nth-child(3) {
+    background: red;
+  }
+  
+  .testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+  }
+  

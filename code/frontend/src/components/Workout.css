@@ -1,0 +1,161 @@
+.workout-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.workout-background {
+    background: url('/public/images/caesar.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout-form {
+    background: rgba(34, 34, 34, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #222;
+}
+
+.workout-table th {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+.workout-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.save-button, .delete-button {
+    background: red;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.save-button:hover, .delete-button:hover {
+    background: darkred;
+}
+
+@media screen and (max-width: 768px) {
+    .workout-container {
+        max-width: 95%;
+        padding: 15px;
+    }
+}
+
+.selector-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 180px;
+    padding: 8px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 1rem;
+}
+
+select:focus {
+    outline: none;
+    border-color: darkred;
+}
+
+@media screen and (max-width: 768px) {
+    .selector-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    select {
+        width: 100%;
+    }
+}
+
+.form-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.day-selector-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.day-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.day-selector select {
+    flex: 1;
+    max-width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.notes-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.notes-section textarea {
+    width: 425px;
+    min-height: 230px;
+    padding: 10px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: 1px solid red;
+    font-size: 1rem;
+}
+
+
+.notes-section button {
+    margin-top: 10px;
+}

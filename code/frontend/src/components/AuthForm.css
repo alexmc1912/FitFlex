@@ -1,0 +1,87 @@
+.auth-background-container {
+  background: url('/public/images/signup1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.auth-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .auth-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form label {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .auth-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-form button {
+    background: #ff0000;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .auth-form button:hover {
+    background: #cc0000;
+  }
+  
+  .switch-form {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .switch-form a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .switch-form a:hover {
+    text-decoration: underline;
+  }
+  
